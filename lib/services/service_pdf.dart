@@ -8,6 +8,13 @@ import "package:share_plus/share_plus.dart";
 
 import "../convert/convert_img_pdf.dart";
 
+class PdfPageImage {
+  PdfPageImage({required this.id, required this.file});
+
+  final String id;
+  final File file;
+}
+
 class ServicePdf {
   final ConvertImgPdf _converter = ConvertImgPdf();
 
