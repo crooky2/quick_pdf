@@ -1,4 +1,4 @@
-package com.example.quick_pdf
+package com.ChristopherPhillipBach.quick_pdf
 
 import io.flutter.embedding.android.FlutterActivity
 
